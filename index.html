@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for...</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="Search Location...">
+      
+    <!-- ordered list -->
+    <ol id='list'>
+        <li class="animals">10.ZO - Mens Premium Leather Jackets - A-1</li>
+        <li class="animals">12.00 - Mens Premium Leather Jackets - A-6</li>
+        <li class="animals">6037.2B - Mens Premium Leather Jackets - A-16</li>
+        <li class="animals">6916.00 - Mens Premium Leather Jackets - A-18</li>
+        <li class="animals">6905.AGR - Mens Ultra Leather Jackets - A-22</li>
+        <li class="animals">6919.00 - Mens Premium Leather Jackets - A-27</li>
+        <li class="animals">6037.16 - Mens Premium Leather Jackets - A-31</li>
+        <li class="animals">K-2148- Mens Nylon Textile Jackets - A-33</li>
+        <li class="animals">3520.00 - Mens Denim Hoodie Jackets - A-34</li>
+        <li class="animals">6611.00 - Mens Premium Leather Jackets - A-37</li>
+        <li class="animals">6905.LA - Mens Premium Leather Jackets - A-42</li>
+        <li class="animals">6057.NG - Mens Premium Leather Jackets - A-47</li>
+        <li class="animals">312.00 - Mens Ultra Leather Jackets - A-52</li>
+        <li class="animals">1010.00 - Boys Premium Leather Jackets - A-53</li>
+        <li class="animals">3616.18 - Mens Nylon Textile Jackets - A-57</li>
+        <li class="animals">3629.00 - Mens Nylon Textile Jackets - A-62</li>
+        <li class="animals">6037.RUB - Mens Ultra Leather Jackets - A-63</li>
+        <li class="animals">8000.00 - Mens Skull Hoodie Sweatshirts - A-67</li>
+        <li class="animals">6924.00 - Mens Premium Leather Jackets - AA-2</li>
+        <li class="animals">502.NK - Mens Ultra Leather Jackets - AA-2</li>
+        <li class="animals">6922.00 - Mens Ultra Leather Jackets - AA-14</li>
+        <li class="animals">6611.ABR - Mens Ultra Leather Jackets - AA-15</li>
+        <li class="animals">13.ZO - Mens Premium Leather Jackets - AA-18</li>
+        <li class="animals">6924.BRD - Mens Premium Leather Jackets - AA-24</li>
+        <li class="animals">14.00 - Mens Premium Leather Jackets - AA-25</li>
+        <li class="animals">502.00 - Mens Premium Leather Jackets - AA-29</li>
+        <li class="animals">6608.GO - Mens Premium Leather Jackets - AA-34</li>
+        <li class="animals">6045.ANT - Mens Premium Leather Jackets - AA-35</li>
+        <li class="animals">868.00 - Mens Premium Leather Shirts - AA-36</li>
+        <li class="animals">6049.18 - Mens Premium Leather Jackets - AA-39</li>
+        <li class="animals">6924.ANT - Mens Premium Leather Jackets - AA-44</li>
+        <li class="animals">341.00 - Mens Ultra Leather Jackets - AA-45</li>
+        <li class="animals">852.00 - Mens Premium Leather Shirts - AA-49</li>
+        <li class="animals">6560.17 - Ladies Premium Leather Jackets - AA-55</li>
+        <li class="animals">K-2147 - Mens Nylon Textile Jackets - AA-57</li>
+        <li class="animals">316.00 - Mens Ultra Leather Jackets - AA-61</li>
+        <li class="animals">6903.00 - Mens Ultra Leather Jackets - AA-66</li>
+        <li class="animals">3610.00 - Mens Textile Leather Jackets - AA-67</li>
+        <li class="animals">6920.00 - Mens Premium Leather Jackets - AA-71</li>
+        <li class="animals">3616.16 - Mens Nylon Textile Jackets - AA-78</li>
+        <li class="animals">809.00 - Mens Premium Leather Dusters - AA-79</li>
+        <li class="animals">305.00 - Mens Ultra Leather Jackets - AA-83</li>
+        <li class="animals">TW205.16 - Mens Orange Flannel Shirts - AA-87</li>
+        <li class="animals">TW208.00 - Mens Green Flannel Shirts - AA-91</li>
+        <li class="animals">6841.00 - Ladies Premium Leather Jackets - B-1</li>
+        <li class="animals">6624.NG - Mens Premium Leather Jackets - B-3</li>
+        <li class="animals">6841.GY - Ladies Premium Leather Jackets - B-13</li>
+        <li class="animals">6832.17 - Ladies Premium Leather Jackets - B-14</li>
+        <li class="animals">6829.00 - Ladies Premium Leather Jackets - B-15</li>
+        <li class="animals">6843.00 - Ladies Premium Leather Jackets - B-23</li>
+        <li class="animals">6832.01 - Ladies Premium Leather Jackets - B-24</li>
+        <li class="animals">6557.NG - Ladies Premium Leather Jackets - B-25</li>
+        <li class="animals">6841.17 - Ladies Premium Leather Jackets - B-33</li>
+        <li class="animals">6564.00 - Ladies Premium Leather Jackets - B-34</li>
+        <li class="animals">6951.NG - Ladies Premium Leather Jackets - B-35</li>
+        <li class="animals">6953.17 - Ladies Premium Leather Jackets - B-40</li>
+        <li class="animals">6561.00 - Ladies Premium Leather Jackets - B-43</li>
+        <li class="animals">6537.GO - Ladies Premium Leather Jackets - B-44</li>
+        <li class="animals">6832.00 - Ladies Premium Leather Jackets - B-49</li>
+        <li class="animals">6953.00 - Ladies Premium Leather Jackets - B-55</li>
+        <li class="animals">254.00 - Ladies Premium Leather Jackets - B-57</li>
+        <li class="animals">52.00 - Ladies Premium Leather Jackets - B-61</li>
+        <li class="animals">668.SL - Ladies Premium Leather Vests - B-62</li>
+        <li class="animals">561.SD - Ladies Premium Leather Jackets - B-65</li>
+        <li class="animals">6896.00 - Ladies Premium Leather Vests - B-70</li>
+        <li class="animals">2659.LC - Ladies Premium Leather Vests - B-72</li>
+        <li class="animals">TW255.20 - Ladies Gray Flannel Shirts - B-78</li>
+        <li class="animals">254.GO - Ladies Premium Leather Jackets - B-79</li>
+        <li class="animals">254.BH - Ladies Premium Leather Jackets - B-79</li>
+        <li class="animals">TW206.03 - Mens Blue Flannel Shirts - B-82</li>
+        <li class="animals">TW205.01 - Mens Red Flannel Shirts - B-83</li>
+        <li class="animals">TW255.17 - Ladies Purple Flannel Shirts - B-87</li>
+        <li class="animals">TW255.01 - Ladies Red Flannel Shirts - B-88</li>
+        <li class="animals">TW207.00 - Mens Textile Flannel Shirts - B-91</li>
+        <li class="animals">TW262.00 - Ladies Textile Flannel Shirts - B-92</li>
+        <li class="animals">TW210.00 - Mens Pink Flannel Shirts - B-97</li>
+        <li class="animals">2681.NG - Ladies Premium Leather Vests - BB-2</li>
+        <li class="animals">6890.17 - Ladies Premium Leather Vests - BB-7</li>
+        <li class="animals">6890.00 - Ladies Premium Leather Vests - BB-14</li>
+        <li class="animals">399.00 - Ladies Premium Leather Vests - BB-15</li>
+        <li class="animals">3692.17 - Ladies Nylon Textile Jackets - BB-12</li>
+        <li class="animals">2659.00 - Ladies Premium Leather Vests - BB-19</li>
+        <li class="animals">2666.00 - Ladies Premium Leather Vests - BB-24</li>
+        <li class="animals">6751.00 - Ladies Premium Leather Vests - BB-25</li>
+        <li class="animals">6895.01 - Ladies Premium Leather Vests - BB-26</li>
+        <li class="animals">6897.ANT - Ladies Premium Leather Vests - BB-29</li>
+        <li class="animals">6879.RF - Ladies Premium Leather Vests - BB-34</li>
+        <li class="animals">6561.11 - Ladies Premium Leather Jackets - BB-35</li>
+        <li class="animals">6897.GY - Ladies Premium Leather Vests - BB-39</li>
+        <li class="animals">6841.ANT - Ladies Premium Leather Jackets - BB-43</li>
+        <li class="animals">6824.RF - Ladies Premium Leather Jackets - BB-44</li>
+        <li class="animals">382.00 - Ladies Premium Leather Vests - BB-45</li>
+        <li class="animals">6897.17 - Ladies Premium Leather Vests - BB-54</li>
+        <li class="animals">6879.24 - Ladies Premium Leather Vests - BB-56</li>
+        <li class="animals">6892.00 - Ladies Premium Leather Vests - BB-60</li>
+        <li class="animals">6890.USA - Ladies Premium Leather Vests - BB-61</li>
+        <li class="animals">6801.PL - Ladies Premium Leather Jackets - BB-64</li>
+        <li class="animals">2658.00 - Ladies Premium Leather Vests - BB-65</li>
+        <li class="animals">2682.NG - Ladies Premium Leather Vests - BB-71</li>
+        <li class="animals">7502.ZP - Ladies Premium Leather Vests - BB-77</li>
+        <li class="animals">6896.17 - Ladies Premium Leather Vests - BB-78</li>
+        <li class="animals">8053.00 - Ladies Skull Hoodie Sweatshirts - BB-82</li>
+        <li class="animals">6905.GY - Mens Premium Leather Jackets - BB-87</li>
+        <li class="animals">TW255.16 - Ladies Orange Flannel Shirts - BB-88</li>
+        <li class="animals">TW205.20 - Mens Gray Flannel Shirts - BB-92</li>
+        <li class="animals">7107.00 - Unisex Premium Leather Chaps - BB-98</li>
+        <li class="animals">2812.BO - PVC Braided Tool Bag - BB-99</li>
+        <li class="animals">6655.00 - Mens Premium Leather Vests - C-2</li>
+        <li class="animals">6654.00 - Mens Premium Leather Vests - C-7</li>
+        <li class="animals">605.00 - Mens Premium Leather Vests - C-13</li>
+        <li class="animals">7402.ZP - Mens Premium Leather Vests - C-14</li>
+        <li class="animals">6655.SL - Mens Premium Leather Vests - C-15</li>
+        <li class="animals">6664.01 - Mens Premium Leather Vests - C-28</li>
+        <li class="animals">6664.00 - Mens Premium Leather Vests - C-29</li>
+        <li class="animals">6897.00 - Ladies Premium Leather Vests - C-30</li>
+        <li class="animals">6665.00 - Mens Premium Leather Vests - C-34</li>
+        <li class="animals">6665.01 - Mens Premium Leather Vests - C-35</li>
+        <li class="animals">6665.USA - Mens Premium Leather Vests - C-43</li>
+        <li class="animals">6665.TXS - Mens Premium Leather Vests - C-44</li>
+        <li class="animals">6668.00 - Mens Premium Leather Vests - C-45</li>
+        <li class="animals">6036.00 - Mens Premium Leather Vests - C-48</li>
+        <li class="animals">2658.LC - Ladies Premium Leather Vests - C-54</li>
+        <li class="animals">6681.00 - Mens Denim Leather Vests - C-55</li>
+        <li class="animals">2611.GN - Mens Premium Leather Vests - C-56</li>
+        <li class="animals">319.00 - Mens Premium Leather Vests - C-64</li>
+        <li class="animals">6678.00 - Mens Premium Leather Vests - C-65</li>
+        <li class="animals">6675.00 - Mens Premium Leather Vests - C-66</li>
+        <li class="animals">6954.17 - Ladies Premium Leather Jackets - C-76</li>
+        <li class="animals">6677.00 - Mens Denim Leather Vests - C-77</li>
+        <li class="animals">6679.00 - Mens Denim Leather Vests - C-78</li>
+        <li class="animals">2632.PL - Mens Premium Leather Vests - C-86</li>
+        <li class="animals">6562.17 - Ladies Premium Leather Jackets - C-87</li>
+        <li class="animals">2608.2B - Mens Premium Leather Vests - C-88</li>
+        <li class="animals">2632.LC - Mens Premium Leather Vests - CC-3</li>
+        <li class="animals">602.00 - Mens Premium Leather Vests - CC-4</li>
+        <li class="animals">2632.ABR - Mens Ultra Leather Vests - CC-5</li>
+    </ol>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
